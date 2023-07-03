@@ -34,12 +34,14 @@ export default function Posts() {
                     placeholder='Enter the description'
                      onChange={(e)=> setDescription(e.target.value)}
              />
-            <button onClick={() => {
-                 if (title.trim() !== '' && description.trim() !== '') {
-                     dispatch(addPost({id: posts.length +1, title, description}));
-                    setTitle("");
-                    setDescription("")npm }
-            }}>Addbutton</button>
+<button onClick={() => {
+    if (title.trim() !== '' && description.trim() !== '') {
+        dispatch(addPost({ id: posts.length + 1, title, description }));
+        setTitle("");
+        setDescription("");
+    }
+}}>Addbutton</button>
+
 
 
 

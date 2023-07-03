@@ -1,7 +1,7 @@
 {
   "name": "curd-tookit",
   "version": "0.1.0",
-  "homepage":"http://ahmedzamzam55.github.io/curd",
+  "homepage": "https://ahmedzamzam55.github.io/curd",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -16,6 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
